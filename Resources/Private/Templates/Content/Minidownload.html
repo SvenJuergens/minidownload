@@ -1,0 +1,19 @@
+<f:if condition="{data.header}">
+    {data.header}<br/>
+</f:if>
+
+<f:if condition="{data.bodytext}">
+    <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.bodytext}</f:format.html>
+    <br/>
+</f:if>
+
+<f:if condition="{miniDownloadsWithWrongPassword.{data.uid}}">
+    <div class="error">Falsches Passwort</div>
+</f:if>
+<form autocomplete="off" action="" enctype="application/x-www-form-urlencoded" method="post">
+    <input type="text" name="passwortField" value="" placeholder="Passwort eingeben">
+    <input type="hidden" name="downloadUid" value="{data.uid}"/>
+    <input type="hidden" name="minidownloadTrigger" value="1"/>
+    <button type="submit"> Go</button>
+</form>
+

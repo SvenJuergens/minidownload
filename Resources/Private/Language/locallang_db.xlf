@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2022-02-21T17:05:23+00:00"
+		  product-name="minidownload">
+		<header/>
+		<body>
+			<trans-unit id="tt_content.tx_minidownload_download_pw">
+				<source>Password for Download</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.div._minidownload_">
+				<source>minidownload</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.minidownload_minidownload">
+				<source>Downloads with PW</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

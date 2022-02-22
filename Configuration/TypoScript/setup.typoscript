@@ -1,0 +1,24 @@
+tt_content.minidownload_minidownload = FLUIDTEMPLATE
+tt_content.minidownload_minidownload {
+
+  layoutRootPaths {
+    0 = EXT:minidownload/Resources/Private/Layouts/
+    10 = {$plugin.tx_minidownload.view.layoutRootPath}
+  }
+
+  partialRootPaths {
+    0 = EXT:minidownload/Resources/Private/Partials/
+    10 = {$plugin.tx_minidownload.view.partialRootPath}
+  }
+
+  templateRootPaths {
+    0 = EXT:minidownload/Resources/Private/Templates/Content/
+    10 = {$plugin.tx_minidownload.view.templateRootPath}
+  }
+
+  templateName = Minidownload
+  dataProcessing.20 = Svenjuergens\Minidownload\DataProcessing\CustomProcessor
+  dataProcessing.20 {
+    as = miniDownloadsWithWrongPassword
+  }
+}

@@ -1,0 +1,8 @@
+# cat=minidownload/file; type=string; label=Path to template root (FE)
+plugin.tx_minidownload.view.templateRootPath =
+
+# cat=minidownload/file; type=string; label=Path to template partials (FE)
+plugin.tx_minidownload.view.partialRootPath =
+
+# cat=minidownload/file; type=string; label=Path to template layouts (FE)
+plugin.tx_minidownload.view.layoutRootPath =

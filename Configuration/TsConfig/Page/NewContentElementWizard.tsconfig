@@ -1,0 +1,14 @@
+mod.wizards.newContentElement.wizardItems.common {
+  elements {
+    minidownload {
+      iconIdentifier = tx_minidownload_minidownload
+      title = LLL:EXT:minidownload/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.minidownload_title
+      description = LLL:EXT:minidownload/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.minidownload_description
+      tt_content_defValues {
+        CType = minidownload_minidownload
+      }
+    }
+  }
+
+  show := addToList(minidownload)
+}
